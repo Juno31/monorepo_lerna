@@ -1,0 +1,16 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "install": "lerna bootstrap",
+    "clean": "lerna clean"
+  },
+  "workspaces": [
+    "packages/*",
+    "projects/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.4.1",
+    "typescript": "^4.9.5"
+  }
+}
