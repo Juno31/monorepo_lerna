@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "install": "lerna bootstrap",
-    "clean": "lerna clean"
+    "clean": "lerna clean",
+    "start:dev": "lerna run --scope '@project/*' start:dev"
   },
   "workspaces": [
     "packages/*",
